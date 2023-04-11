@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header> 
+    <h1> The Calculator</h1>
+</header>
+    
+   
+<main>
+<h2 class ="instructions">Instructions</h2>
+<ol>
+<li>Click on the button for the desired operation below to start.</li>
+<li>Enter the two numbers you want to calculate when prompted</li>
+<li>The result of the selected operation will be displayed in the results zone.</li>
+</ol>
+<div class="button-container"> 
+    
+    <button onclick="sumButton()">Addition</button>
+    <button onclick="subButton()">Subtraction</button>
+    <button onclick="divButton()">Division</button>
+    <button onclick="multButton()">Multiplication</button>
+
+</div>    
+<h2>Results Zone</h2>
+<div class="result-display">
+
+<div id="results"></div>
+    
+</div>
+</main>
+<script src="scripts/calculator.js">  </script>
+</body>
+</html>

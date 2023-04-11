@@ -1,0 +1,54 @@
+main {
+display: flex;
+flex-direction: column;
+border-radius: 15px;
+width: 30%;
+align-items: center;
+justify-content: center;
+background-color: rgb(214, 214, 214);
+border-color: black;
+border-style: solid;
+border-width: 10px;
+border-right-width: 2px;
+border-top-width: 2px;
+
+}
+
+.instructions{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    width: 60%;
+    border-color: rgb(153, 153, 153);
+
+}
+
+
+header{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+
+}
+
+button{
+font-size: large;
+background-color: rgb(163, 163, 163);
+border-radius: 4px;
+}
+
+.result-display{
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+width: 40%;
+background-color: rgb(32, 32, 32);
+color: white;
+font-weight: 500;
+border-style: solid;
+border-color: rgb(94, 94, 94);
+border-radius: 6px;
+
+}
